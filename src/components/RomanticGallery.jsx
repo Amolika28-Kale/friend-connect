@@ -17,7 +17,26 @@ const couples = [
     img: "https://media.istockphoto.com/id/1904047787/photo/close-up-shot-romantic-man-holding-girlfriends-or-wifes-hand-during-candlelight-dinner.jpg?s=612x612&w=0&k=20&c=8igKYZCKC5zqzbPdl2KtMIx9wsFWJDqe2C0cQHrsitI=",
     title: "Indian Hearts, Real Love",
   },
+
+  // ➕ NEW 4 IMAGES
+  {
+    img : "https://media.istockphoto.com/id/1162109324/photo/young-couple-in-public-park-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=YpyJgXOHwElFnTouXM6Q9oaep9ERmHniR0iieNXRzqE=",
+    title: "Love That Feels Safe",
+  },
+  {
+    img : "https://plus.unsplash.com/premium_photo-1661335258672-fe0aa9f1450f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwNHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Comfort & Care",
+  },
+  {
+    img : "https://images.unsplash.com/photo-1765854637261-69b5de84cada?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvdXBsZSUyMC0lMjByZWxhdGlvbnNoaXAlMjB0b2dldGhlciUyMGZvcmV2ZXJ8ZW58MHx8MHx8fDA%3D",
+    title: "Together Forever",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1555504621-60558fd0626b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGNvdXBsZSUyMC0lMjByZWxhdGlvbnNoaXAlMjBtb21lbnRzJTIwb2YlMjB0cnVzdHxlbnwwfHwwfHx8MA%3D%3D",
+    title: "Moments of Trust",
+  },
 ];
+
 
 export default function RomanticGallery() {
   return (

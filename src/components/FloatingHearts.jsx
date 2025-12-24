@@ -1,34 +1,44 @@
 import { motion } from "framer-motion";
 
-const hearts = Array.from({ length: 8 });
+const hearts = Array.from({ length: 10 });
 
 export default function FloatingHearts() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      {hearts.map((_, i) => (
-        <motion.span
-          key={i}
-          className="absolute text-pink-400/40"
-          initial={{
-            y: "110%",
-            x: `${Math.random() * 100}%`,
-            scale: Math.random() * 0.6 + 0.4,
-            opacity: 0,
-          }}
-          animate={{
-            y: "-10%",
-            opacity: [0, 1, 1, 0],
-          }}
-          transition={{
-            duration: Math.random() * 8 + 8,
-            delay: Math.random() * 4,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        >
-          ❤️
-        </motion.span>
-      ))}
+      {hearts.map((_, i) => {
+        const size = Math.random() * 20 + 16; // 16px – 36px
+        const duration = Math.random() * 6 + 10;
+
+        return (
+          <motion.span
+            key={i}
+            className="absolute select-none"
+            style={{
+              fontSize: `${size}px`,
+              left: `${Math.random() * 100}%`,
+              color: "rgba(244, 63, 94, 0.35)", // rose-500 soft
+            }}
+            initial={{
+              y: "110%",
+              rotate: Math.random() * 30 - 15,
+              opacity: 0,
+            }}
+            animate={{
+              y: "-15%",
+              opacity: [0, 0.8, 0.8, 0],
+              rotate: Math.random() * 60 - 30,
+            }}
+            transition={{
+              duration,
+              delay: Math.random() * 5,
+              repeat: Infinity,
+              ease: "linear",
+            }}
+          >
+            ❤️
+          </motion.span>
+        );
+      })}
     </div>
   );
 }
