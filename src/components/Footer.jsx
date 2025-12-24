@@ -23,7 +23,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-2xl font-extrabold flex items-center gap-2">
               <Heart className="text-rose-500" size={22} />
-              FriendConnect
+              LoveConnects
             </h3>
 
             <p className="text-sm mt-4 leading-relaxed text-gray-400 max-w-xs">
@@ -108,7 +108,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-14 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
 
           <p>
-            © {new Date().getFullYear()} FriendConnect. All rights reserved.
+            © {new Date().getFullYear()} LoveConnects. All rights reserved.
           </p>
 
           <p className="flex items-center gap-1">

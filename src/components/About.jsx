@@ -18,11 +18,11 @@ export default function About() {
           className="text-center"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-primary">
-            About <span className="text-rose-500">FriendConnect</span>
+            About <span className="text-rose-500">LoveConnects</span>
           </h2>
 
           <p className="mt-5 sm:mt-6 text-gray-600 max-w-3xl mx-auto text-base sm:text-lg">
-            FriendConnect is a trusted platform designed to help people find
+            LoveConnects is a trusted platform designed to help people find
             meaningful friendships and emotional connections in a safe and
             respectful environment.
           </p>
@@ -44,7 +44,7 @@ export default function About() {
 
             <p className="mt-4 text-gray-600 leading-relaxed text-sm sm:text-base">
               In today’s digital world, many people feel lonely despite being
-              surrounded by social media. FriendConnect bridges that gap by
+              surrounded by social media. LoveConnects bridges that gap by
               connecting real people who genuinely want to talk, share, and
               build meaningful relationships.
             </p>

@@ -17,7 +17,7 @@ export default function Navbar() {
           <a
           href="#home">
         <div className="font-extrabold text-primary text-xl cursor-pointer">
-          ❤️ FriendConnect
+          ❤️ LoveConnects
            </div>
          </a>
        

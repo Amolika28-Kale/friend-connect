@@ -5,20 +5,20 @@ const users = [
   {
     name: "Priya Sharma",
     city: "Mumbai",
-    msg: "I never thought online connections could feel this real. FriendConnect truly changed my life.",
-    img: "https://randomuser.me/api/portraits/women/65.jpg",
+    msg: "I never thought online connections could feel this real. LoveConnects truly changed my life.",
+    img: "https://images.unsplash.com/photo-1646979201277-aca83fa543c3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByaXlhJTIwc2hhcm1hfGVufDB8fDB8fHww",
   },
   {
     name: "Rahul Verma",
     city: "Bangalore",
     msg: "Genuine people, quick delivery and great support. Totally worth it!",
-    img: "https://randomuser.me/api/portraits/men/52.jpg",
+    img: "https://media.istockphoto.com/id/1587315781/photo/happy-laughing-guy-posing-with-arms-folded.webp?a=1&b=1&s=612x612&w=0&k=20&c=pQjzvhpF0m66H5O9YMIgM6tAjtP1BUoAP4ChXnIpJTA=",
   },
   {
     name: "Anjali Mehta",
     city: "Delhi",
     msg: "Safe, trusted and meaningful conversations. Highly recommended!",
-    img: "https://randomuser.me/api/portraits/women/44.jpg",
+    img: "https://plus.unsplash.com/premium_photo-1682096111256-e020381ec730?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM2fHx8ZW58MHx8fHx8",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function Testimonials() {
             Real Stories, <span className="text-rose-500">Real Connections</span>
           </h2>
           <p className="mt-4 text-gray-600 text-base sm:text-lg max-w-xl mx-auto">
-            Thousands of people found companionship through FriendConnect
+            Thousands of people found companionship through LoveConnects
           </p>
         </motion.div>
 

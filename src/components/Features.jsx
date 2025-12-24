@@ -33,7 +33,7 @@ export default function Features() {
           className="text-center"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-primary">
-            Why Choose <span className="text-rose-500">FriendConnect?</span>
+            Why Choose <span className="text-rose-500">LoveConnects?</span>
           </h2>
           <p className="mt-4 text-gray-600 text-base sm:text-lg max-w-2xl mx-auto">
             Safe, genuine, and meaningful connections — designed for you

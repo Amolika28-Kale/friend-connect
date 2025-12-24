@@ -12,7 +12,7 @@ export default function PaymentModal({ open, onClose, plan, amount }) {
 
         {/* Header */}
         <div className="bg-[#2d6cdf] text-white p-4 rounded-t-2xl relative">
-          <h3 className="text-lg font-bold">FriendConnect</h3>
+          <h3 className="text-lg font-bold">LoveConnects</h3>
           <p className="text-sm opacity-90">{plan}</p>
 
           <button
